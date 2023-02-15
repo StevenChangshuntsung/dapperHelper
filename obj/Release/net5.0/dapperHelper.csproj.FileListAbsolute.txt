@@ -1,0 +1,12 @@
+C:\Users\USER\source\repos\dapperHelper\bin\Release\net5.0\dapperHelper.deps.json
+C:\Users\USER\source\repos\dapperHelper\bin\Release\net5.0\dapperHelper.dll
+C:\Users\USER\source\repos\dapperHelper\bin\Release\net5.0\ref\dapperHelper.dll
+C:\Users\USER\source\repos\dapperHelper\bin\Release\net5.0\dapperHelper.pdb
+C:\Users\USER\source\repos\dapperHelper\obj\Release\net5.0\dapperHelper.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\dapperHelper\obj\Release\net5.0\dapperHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\dapperHelper\obj\Release\net5.0\dapperHelper.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\dapperHelper\obj\Release\net5.0\dapperHelper.AssemblyInfo.cs
+C:\Users\USER\source\repos\dapperHelper\obj\Release\net5.0\dapperHelper.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\dapperHelper\obj\Release\net5.0\dapperHelper.dll
+C:\Users\USER\source\repos\dapperHelper\obj\Release\net5.0\ref\dapperHelper.dll
+C:\Users\USER\source\repos\dapperHelper\obj\Release\net5.0\dapperHelper.pdb
