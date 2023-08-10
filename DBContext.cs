@@ -13,11 +13,16 @@ namespace dapperHelper
 {
     public class DBContext : IDBContext
     {
-        public DBContext()
+        public DBContext(string connectionStr)
         {
-
+            ConnectionStr = connectionStr;
         }
-
+        /// <summary>
+        /// 
+        /// 
+        /// 
+        /// 
+        /// </summary>
         public string ConnectionStr { get; set; }
 
         /// <summary>
@@ -67,6 +72,21 @@ namespace dapperHelper
                 using (var con = GetConnection())
                 {
                     var result = await con.ExecuteAsync(queryStr, paramObj);
+                    return result;
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+        public int Execute(string queryStr, object paramObj = null)
+        {
+            try
+            {
+                using (var con = GetConnection())
+                {
+                    var result = con.Execute(queryStr, paramObj);
                     return result;
                 }
             }

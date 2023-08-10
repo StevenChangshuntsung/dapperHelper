@@ -13,6 +13,7 @@ namespace dapperHelper.Interfaces
         Task<T> QuerySingleAsync<T>(string queryStr, object paramObj = null);
         Task<List<T>> QueryAsync<T>(string queryStr, object paramObj = null, bool isCache = true);
         Task<int> ExecuteAsync(string queryStr, object paramObj = null);
+        int Execute(string queryStr, object paramObj = null);
 
         List<ErrorMsgModel> ErrorMessages(SqlException ex);
     }
